@@ -676,6 +676,14 @@
       "en": "User credentials don't match specified provider."
     }
   },
+  "FrequencyUpgradeNeeded": {
+    "status": 402,
+    "code": 4020078,
+    "error": "frequency_upgrade_needed",
+    "description": {
+      "en": "you need to upgrade your plan to use 'immediate' or 'minutes' frequency."
+    }
+  },
   "constants": {
     "ACCESS_TOKEN_EXPIRED": "AccessTokenExpired",
     "COLLECTION_NAME_ALREADY_EXIST": "CollectionNameAlreadyExist",
@@ -761,6 +769,7 @@
     "CREDENTIALS_USER_MISMATCH": "credentialsUserMismatch",
     "CREDENTIALS_PROVIDER_MISMATCH": "CredentialsProviderMismatch",
     "INVALID_PROVIDER": "InvalidProvider",
-    "INVALID_FILE": "InvalidFile"
+    "INVALID_FILE": "InvalidFile",
+    "FREQUENCY_UPGRADE_NEEDED": "FrequencyUpgradeNeeded"
   }
 }
